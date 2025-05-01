@@ -1,0 +1,7 @@
+data/*.json
+data/*.csv
+cache/
+jobs/
+output/
+src/llmtuner/
+*.jsonl
