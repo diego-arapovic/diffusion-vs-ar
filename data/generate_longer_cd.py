@@ -1,4 +1,14 @@
 #!/usr/bin/env python3
+"""
+Usage:
+    python3 generate_longer_cd.py <input_file> >> <output_file>
+
+Description:
+    Reads a JSONL file where each line is a JSON object with "input" and "output" fields.
+    Inserts a random number into the "input" list, modifies the last value using + or *,
+    updates the "input" and "output" accordingly, and prints each modified record as JSON.
+"""
+
 import json
 import random
 import sys
