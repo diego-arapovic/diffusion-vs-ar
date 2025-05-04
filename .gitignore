@@ -2,6 +2,7 @@ data/*.json
 data/*.csv
 cache/
 jobs/
-output/
+output*/
 src/llmtuner/
 *.jsonl
+assets/
